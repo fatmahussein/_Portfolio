@@ -1,3 +1,139 @@
-h1 {
-  color: rgb(56, 187, 44);
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  --primary-color: #6070ff;
+  --font-family: "Poppins", sans-serif;
+  --secondary-color: #ffff;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: var(--font-family);
+  box-sizing: border-box;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+header {
+  display: flex;
+  background: var(--secondary-color);
+}
+
+.heading {
+  background: url(images/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+  border-bottom-left-radius: 80px;
+  height: 600px;
+  background-color: var(--secondary-color);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 5%;
+  width: 100%;
+  padding: 15px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-brand a {
+  font-family: var(--font-family);
+  font-weight: 900;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hamburger {
+  display: block;
+}
+
+p {
+  font-weight: 300;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 2.6px;
+  margin: 5px auto;
+  background-color: var(--primary-color);
+}
+
+.header-container {
+  font-family: var(--font-family);
+  padding: 100px 7%;
+  display: flex;
+  row-gap: 15px;
+  flex-direction: column;
+}
+
+h1,
+.navbar li a {
+  display: flex;
+  font-size: 50px;
+  font-weight: bolder;
+  line-height: 50px;
+  color: #172b4d;
+}
+
+.connect {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.socialmedia-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.navbar {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  nav {
+    margin: auto 10%;
+    width: 78%;
+  }
+
+  .navbar {
+    display: flex;
+    gap: 25px;
+    color: #344563;
+  }
+
+  .navbar li a {
+    font-size: 16px;
+  }
+
+  .heading {
+    background: url(images/Header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #fff;
+  }
+
+  .header-container {
+    padding: 170px 17%;
+  }
 }
