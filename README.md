@@ -21,9 +21,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project"></a>
+# 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
 
-**[Hello Microverse]** is a project that shows how to set up linter configurations, and beginner html file.
+**[Portfolio: finish mobile version]** is a project created in mobile version.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,7 +47,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Displays Hello Microverse]** 
+- **[Displays works section]** 
+- **[Displays About-myself section]** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
