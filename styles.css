@@ -1,3 +1,125 @@
-h1 {
-  color: rgb(56, 187, 44);
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@media screen and (min-width: 375px) {
+  * {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+
+  header {
+    display: flex;
+  }
+
+  .heading {
+    background: url(images/header-shapes\ mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    border-bottom-left-radius: 50px;
+    height: 700px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 5%;
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .navbar-brand a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6070ff;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  p {
+    font-weight: 300;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 2.6px;
+    margin: 5px auto;
+    background-color: #6070ff;
+  }
+
+  .header-container {
+    font-family: 'Poppins', sans-serif;
+    padding: 100px 7%;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+  }
+
+  h1 {
+    display: flex;
+    font-size: 29px;
+  }
+
+  .connect {
+    font-size: 17px;
+    font-weight: 600;
+    color: #6070ff;
+  }
+
+  .socialmedia-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  nav {
+    margin: auto 10%;
+    width: 78%;
+  }
+
+  .navbar {
+    display: flex;
+    gap: 25px;
+    color: #344563;
+  }
+
+  .navbar li a {
+    font-size: 16px;
+  }
+
+  .heading {
+    background: url(images/Header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #fff;
+  }
+
+  .header-container {
+    padding: 170px 17%;
+  }
 }
