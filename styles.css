@@ -8,8 +8,14 @@
     box-sizing: border-box;
   }
 
+  body {
+    background: #e5e5e5;
+  }
+
   header {
     display: flex;
+    margin-bottom: -1%;
+    background: #ffff;
   }
 
   .heading {
@@ -17,7 +23,8 @@
     background-repeat: no-repeat;
     background-size: 100% 90%;
     border-bottom-left-radius: 50px;
-    height: 700px;
+    height: 557px;
+    background-color: #ffff;
   }
 
   nav {
@@ -33,7 +40,6 @@
   }
 
   .navbar-brand a {
-    font-family: 'Poppins', sans-serif;
     font-weight: 900;
     font-size: 20px;
     display: flex;
@@ -63,7 +69,6 @@
   }
 
   .header-container {
-    font-family: 'Poppins', sans-serif;
     padding: 100px 7%;
     display: flex;
     row-gap: 10px;
@@ -73,6 +78,7 @@
   h1 {
     display: flex;
     font-size: 29px;
+    color: #172b4d;
   }
 
   .connect {
@@ -87,39 +93,188 @@
     gap: 10px;
   }
 
-  .navbar {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hamburger {
-    display: none;
+  /* works section */
+  .works {
+    padding-bottom: 20%;
   }
 
-  nav {
-    margin: auto 10%;
-    width: 78%;
+  .cards {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 10%;
+    grid-gap: 2%;
   }
 
-  .navbar {
+  .card {
     display: flex;
-    gap: 25px;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    background-color: #ffff;
+    border-radius: 20px;
+    padding: 3%;
+  }
+
+  .dot {
+    width: 15px;
+    height: 15px;
+    background-color: #e5e5e5;
+    margin-top: 2%;
+    border-radius: 10px;
+  }
+
+  .left-block {
+    margin-top: 2%;
+  }
+
+  h2 {
+    color: #172b4d;
+    font-size: 38px;
+    font-weight: 900;
+  }
+
+  .list1 {
+    display: flex;
+    gap: 15px;
+    font-weight: 900;
+    margin-top: 2%;
+    color: #7a869a;
+  }
+
+  .list1 #canopy {
     color: #344563;
   }
 
-  .navbar li a {
-    font-size: 16px;
+  .p {
+    margin-top: 5%;
+    font-size: 18px;
   }
 
-  .heading {
-    background: url(images/Header.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: #fff;
+  .list2 {
+    display: flex;
+    gap: 4%;
+    margin-top: 10%;
   }
 
-  .header-container {
-    padding: 170px 17%;
+  .badge {
+    background-color: #ededf4;
+    color: #6070ff;
+    padding: 4px 10px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+
+  .see-project {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    background-color: #ffff;
+    color: #6070ff;
+    padding: 12px 26px;
+    text-align: center;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .about-myself {
+    background-color: white;
+    padding-bottom: 10%;
+    border-top-right-radius: 15%;
+  }
+
+  .container-myself {
+    padding: 24px 7%;
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    padding-top: 90px;
+  }
+
+  h3 {
+    font-size: 47px;
+    font-weight: 900;
+  }
+
+  .resume {
+    background-color: #ffff;
+    color: #6070ff;
+    padding: 12px 6px;
+    width: 164px;
+    text-align: center;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  #paragraph {
+    font-size: 18px;
+  }
+
+  .language {
+    padding: 0 7%;
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+  }
+
+  h4 {
+    font-size: 27px;
+    font-weight: 900;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .badge1 {
+    background-color: #f7f7f9;
+    display: flex;
+    gap: 5%;
+    margin-left: auto;
+    margin-bottom: 2%;
+    margin-right: auto;
+    width: 100%;
+    padding: 24px 10px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+
+  h5 {
+    font-size: 26px;
+  }
+
+  h6 {
+    font-size: 26px;
+  }
+
+  .lang {
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+  }
+
+  .framework {
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+  }
+
+  .skills {
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+  }
+
+  .fa {
+    color: #acb7c3;
+  }
+  .navbar{
+    display: none;
   }
 }
