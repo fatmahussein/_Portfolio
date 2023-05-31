@@ -1,10 +1,11 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 :root {
   --primary-color: #6070ff;
   --font-family: "Poppins", sans-serif;
   --secondary-color: #ffff;
+  --darkblue: #2230d2;
+  --hcolor: #172b4d;
 }
 
 * {
@@ -72,7 +73,7 @@ p {
   width: 25px;
   height: 2.6px;
   margin: 5px auto;
-  background-color: #6070ff;
+  background-color: var(--primary-color);
 }
 
 h1 {
@@ -94,7 +95,7 @@ h1,
   font-size: 50px;
   font-weight: bolder;
   line-height: 50px;
-  color: #172b4d;
+  color: var(--hcolor);
 }
 
 .connect {
@@ -132,8 +133,8 @@ h1,
 }
 
 .dot {
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   background-color: #e5e5e5;
   margin-top: 2%;
   border-radius: 10px;
@@ -144,16 +145,17 @@ h1,
 }
 
 h2 {
-  color: #172b4d;
+  color: var(--hcolor);
   font-size: 38px;
   font-weight: 900;
 }
 
 .list1 {
   display: flex;
-  gap: 15px;
+  gap: 10px;
   font-weight: 900;
   margin-top: 2%;
+  font-size: 13px;
   color: #7a869a;
 }
 
@@ -174,7 +176,7 @@ h2 {
 
 .badge {
   background-color: #ededf4;
-  color: #6070ff;
+  color: var(--primary-color);
   padding: 4px 10px;
   text-align: center;
   border-radius: 8px;
@@ -184,49 +186,74 @@ h2 {
 .see-project {
   margin-top: 10%;
   margin-bottom: 3%;
+  cursor: pointer;
   background-color: #ffff;
-  color: #6070ff;
+  color: var(--primary-color);
   padding: 12px 26px;
   text-align: center;
-  border: 1px solid #6070ff;
+  border: 1px solid var(--primary-color);
   border-radius: 8px;
   font-size: 18px;
   font-weight: 600;
 }
 
+.see-project:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.see-project:active {
+  background-color: var(--darkblue);
+  color: var(--secondary-color);
+}
+
 .about-myself {
   background-color: white;
   padding-bottom: 10%;
-  border-top-right-radius: 15%;
+  border-top-right-radius: 80px;
 }
 
 .container-myself {
   padding: 24px 7%;
   display: flex;
-  row-gap: 20px;
+  row-gap: 5px;
   flex-direction: column;
   padding-top: 90px;
 }
 
 h3 {
   font-size: 47px;
+  color: var(--hcolor);
   font-weight: 900;
 }
 
 .resume {
   background-color: #ffff;
-  color: #6070ff;
+  color: var(--primary-color);
+  cursor: pointer;
   padding: 12px 6px;
   width: 164px;
   text-align: center;
-  border: 1px solid #6070ff;
+  border: 1px solid var(--primary-color);
   border-radius: 8px;
   font-size: 18px;
   font-weight: 600;
 }
 
+.resume:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.resume:active {
+  background-color: var(--darkblue);
+  color: var(--secondary-color);
+}
+
 #paragraph {
   font-size: 18px;
+  color: #344563;
+  
 }
 
 .language {
@@ -234,11 +261,6 @@ h3 {
   display: flex;
   row-gap: 10px;
   flex-direction: column;
-}
-
-h4 {
-  font-size: 27px;
-  font-weight: 900;
 }
 
 .list {
@@ -254,6 +276,7 @@ h4 {
   margin-bottom: 2%;
   margin-right: auto;
   width: 100%;
+  align-items: center;
   padding: 24px 10px;
   font-size: 17px;
   text-align: center;
@@ -261,30 +284,28 @@ h4 {
   font-weight: 600;
 }
 
-h5 {
-  font-size: 26px;
-}
-
-h6 {
-  font-size: 26px;
-}
-
 .lang {
   display: flex;
   width: 88%;
+  font-size: 23px;
+  font-weight: 600;
   justify-content: space-between;
 }
 
 .framework {
   display: flex;
   width: 88%;
+  font-weight: 600;
   justify-content: space-between;
+  font-size: 24px;
 }
 
 .skills {
   display: flex;
   width: 88%;
   justify-content: space-between;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .fa {
