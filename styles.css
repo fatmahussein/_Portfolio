@@ -125,7 +125,7 @@ h1,
 .card {
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: 90%;
   margin: auto;
   background-color: #ffff;
   border-radius: 20px;
