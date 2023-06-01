@@ -4,6 +4,8 @@
   --primary-color: #6070ff;
   --font-family: "Poppins", sans-serif;
   --secondary-color: #ffff;
+  --darkblue: #2230d2;
+  --hcolor: #172b4d;
 }
 
 * {
@@ -19,6 +21,7 @@ body {
 
 header {
   display: flex;
+  margin-bottom: -1%;
   background: var(--secondary-color);
 }
 
@@ -27,7 +30,7 @@ header {
   background-repeat: no-repeat;
   background-size: 100% 90%;
   border-bottom-left-radius: 80px;
-  height: 600px;
+  height: 675px;
   background-color: var(--secondary-color);
 }
 
@@ -73,6 +76,11 @@ p {
   background-color: var(--primary-color);
 }
 
+h1 {
+  display: flex;
+  font-size: 29px;
+}
+
 .header-container {
   font-family: var(--font-family);
   padding: 100px 7%;
@@ -87,7 +95,7 @@ h1,
   font-size: 50px;
   font-weight: bolder;
   line-height: 50px;
-  color: #172b4d;
+  color: var(--hcolor);
 }
 
 .connect {
@@ -102,38 +110,203 @@ h1,
   gap: 10px;
 }
 
-.navbar {
-  display: none;
+/* works section */
+.works {
+  padding-bottom: 20%;
 }
 
-@media screen and (min-width: 768px) {
-  .hamburger {
-    display: none;
-  }
+.cards {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  margin-top: 10%;
+  grid-gap: 2%;
+}
 
-  nav {
-    margin: auto 10%;
-    width: 78%;
-  }
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  background-color: #ffff;
+  border-radius: 20px;
+  padding: 3%;
+}
 
-  .navbar {
-    display: flex;
-    gap: 25px;
-    color: #344563;
-  }
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #e5e5e5;
+  margin-top: 2%;
+  border-radius: 10px;
+}
 
-  .navbar li a {
-    font-size: 16px;
-  }
+.left-block {
+  margin-top: 2%;
+}
 
-  .heading {
-    background: url(images/Header.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: #fff;
-  }
+h2 {
+  color: var(--hcolor);
+  font-size: 38px;
+  font-weight: 900;
+}
 
-  .header-container {
-    padding: 170px 17%;
-  }
+.list1 {
+  display: flex;
+  gap: 10px;
+  font-weight: 900;
+  margin-top: 2%;
+  font-size: 13px;
+  color: #7a869a;
+}
+
+.list1 #canopy {
+  color: #344563;
+}
+
+.p {
+  margin-top: 5%;
+  font-size: 18px;
+}
+
+.list2 {
+  display: flex;
+  gap: 4%;
+  margin-top: 10%;
+}
+
+.badge {
+  background-color: #ededf4;
+  color: var(--primary-color);
+  padding: 4px 10px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.see-project {
+  margin-top: 10%;
+  margin-bottom: 3%;
+  cursor: pointer;
+  background-color: #ffff;
+  color: var(--primary-color);
+  padding: 12px 26px;
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.see-project:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.see-project:active {
+  background-color: var(--darkblue);
+  color: var(--secondary-color);
+}
+
+.about-myself {
+  background-color: white;
+  padding-bottom: 10%;
+  border-top-right-radius: 80px;
+}
+
+.container-myself {
+  padding: 24px 7%;
+  display: flex;
+  row-gap: 5px;
+  flex-direction: column;
+  padding-top: 90px;
+}
+
+h3 {
+  font-size: 47px;
+  color: var(--hcolor);
+  font-weight: 900;
+}
+
+.resume {
+  background-color: #ffff;
+  color: var(--primary-color);
+  cursor: pointer;
+  padding: 12px 6px;
+  width: 164px;
+  text-align: center;
+  border: 1px solid var(--primary-color);
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.resume:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.resume:active {
+  background-color: var(--darkblue);
+  color: var(--secondary-color);
+}
+
+#paragraph {
+  font-size: 18px;
+  color: #344563;
+}
+
+.language {
+  padding: 0 7%;
+  display: flex;
+  row-gap: 10px;
+  flex-direction: column;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.badge1 {
+  background-color: #f7f7f9;
+  display: flex;
+  gap: 5%;
+  margin-left: auto;
+  margin-bottom: 2%;
+  margin-right: auto;
+  width: 100%;
+  align-items: center;
+  padding: 24px 10px;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.lang {
+  display: flex;
+  width: 88%;
+  font-size: 23px;
+  font-weight: 600;
+  justify-content: space-between;
+}
+
+.framework {
+  display: flex;
+  width: 88%;
+  font-weight: 600;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.skills {
+  display: flex;
+  width: 88%;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.fa {
+  color: #acb7c3;
 }
