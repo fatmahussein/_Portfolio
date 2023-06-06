@@ -101,7 +101,7 @@ To run the project, click on "Go Live" on the bottom of the code editor.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Hamburger js events**
+- [ ] **[Hamburger js events]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
