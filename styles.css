@@ -108,7 +108,7 @@
   .card {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 90%;
     margin: auto;
     background-color: #ffff;
     border-radius: 20px;
@@ -182,6 +182,15 @@
     font-size: 18px;
     font-weight: 600;
   }
+  .see-project:hover {
+    background-color:  #6070FF;
+    color: #ffff;
+  }
+  
+  .see-project:active {
+    background-color: #2230D2;
+    color: #ffff;
+  }
 
   .about-myself {
     background-color: white;
@@ -214,6 +223,15 @@
     font-weight: 600;
   }
 
+  .resume:hover {
+    background-color:  #6070FF;
+    color: #ffff;
+  }
+  
+  .resume:active {
+    background-color: #2230D2;
+    color: #ffff;
+  }
   #paragraph {
     font-size: 18px;
   }
