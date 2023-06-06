@@ -21,9 +21,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
+# 📖 [Portfolio: Desktop version] <a name="about-project"></a>
 
-**[Portfolio: finish mobile version]** is a project created in mobile version.
+**[Portfolio: Desktop version]** is a project created in desktop version using css media query.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,6 +49,7 @@
 
 - **[Displays works section]** 
 - **[Displays About-myself section]** 
+- **[Displays Desktop version]** 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,9 +101,7 @@ To run the project, click on "Go Live" on the bottom of the code editor.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Header section]**
-- [ ] **[Portfolio section]**
-- [ ] **[About-myself section]**
+- [ ] **[Hamburger js events**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
