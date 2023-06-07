@@ -91,9 +91,9 @@ To run the project, click on "Go Live" on the bottom of the code editor.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/fatmahussein)
-- Twitter: [@twitterhandle](https://twitter.com/@FatmaHussein200)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fatuma-hussein-48149917b)
+- GitHub: [@fatmahussein](https://github.com/fatmahussein)
+- Twitter: @FatmaHussein200](https://twitter.com/@FatmaHussein200)
+- LinkedIn: [FatumaHussein](https://www.linkedin.com/in/fatuma-hussein-48149917b)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
