@@ -85,14 +85,18 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+```sh
+  git clone https://github.com/fatmahussein/_Portfolio.git
+```
+
+### Install
+
+Install this project with:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  cd Portfolio
+  npm install
 ```
---->
 
 ### Install
 
@@ -109,8 +113,27 @@ Example command:
 
 ### Usage
 
-To run the project, click on live server to view your project on browser
+To run the project, execute the following command:
 
+```sh
+  start live server
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+ N/A
+```
+
+### Deployment
+
+You can deploy this project using:
+
+```sh
+N/A
+```
 
 ### Run tests
 
@@ -144,6 +167,11 @@ Example:
 - LinkedIn: [FatumaHussein](https://www.linkedin.com/in/fatuma-hussein-48149917b)
 
 
+👤 **Author2**
+
+- GitHub: [@MargaretTechworld](https://github.com/githubhandle)
+- Twitter: [@KojoMargaret](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/margaret-kojo-musa-759b8026a/e)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
