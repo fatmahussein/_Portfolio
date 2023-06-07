@@ -320,7 +320,10 @@ h3 {
   border-top-left-radius: 15%;
   margin-top: -110px;
 }
-
+h6{
+  color: #ffff;
+  font-size: 47px;
+}
 .contact-container {
   padding: 120px 6%;
   display: flex;
