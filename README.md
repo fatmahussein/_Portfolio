@@ -8,11 +8,15 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [💻 Getting Started](#getting-started)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-    - [Usage](#usage)
-  - [👥 Authors](#authors)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -68,19 +72,43 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+```sh
+  git clone https://github.com/fatmahussein/_Portfolio.git
+```
+
+### Install
+
+Install this project with:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  cd Portfolio
+  npm install
 ```
---->
 
 ### Usage
 
-To run the project, click on "Go Live" on the bottom of the code editor.
+To run the project, execute the following command:
 
+
+```sh
+  start live server
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+ N/A
+```
+
+### Deployment
+
+You can deploy this project using:
+
+```sh
+N/A
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,9 +118,15 @@ To run the project, click on "Go Live" on the bottom of the code editor.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/fatmahussein)
-- Twitter: [@twitterhandle](https://twitter.com/@FatmaHussein200)
+- GitHub: [@fatmahussein](https://github.com/githubhandle)
+- Twitter: [@FatmaHussein200](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/fatuma-hussein-48149917b)
+
+👤 **Author2**
+
+- GitHub: [@MargaretTechworld](https://github.com/githubhandle)
+- Twitter: [@KojoMargaret](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/margaret-kojo-musa-759b8026a/e)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
