@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-@media screen and (min-width: 375px) {
   * {
     margin: 0%;
     padding: 0%;
@@ -385,7 +384,6 @@
   #desk {
     display: none;
   }
-}
 
 @media screen and (min-width: 768px) {
   .hamburger {
@@ -395,8 +393,16 @@
   .navbar {
     display: flex;
     gap: 25px;
-    color: #344563;
+    color: #2b3952;
     font-size: 15px;
+  }
+ .navbar a{
+  color: #344563;
+ }
+  h1{
+    font-size: 47px;
+    line-height: 50px;
+    font-weight: 900;
   }
 
   .heading {
@@ -404,14 +410,16 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-color: #fff;
+    height: 100vh;
   }
 
   .header-container {
-    padding: 170px 17%;
+    padding: 121px 17%;
   }
 
   .p {
     margin-top: 0%;
+    color: #344563;
   }
 
   .p2 {
@@ -472,11 +480,14 @@
   .badge #desk {
     display: none;
   }
-
+h3{
+  font-size: 40px;
+  color: #091E42;
+}
   .about-myself {
     display: flex;
     padding-bottom: 26%;
-  }
+    }
 
   .container-myself {
     width: 50%;
@@ -548,7 +559,7 @@
   }
 
   #parag {
-    width: 66%;
+    width: 52%;
     margin-left: auto;
     margin-right: auto;
   }
