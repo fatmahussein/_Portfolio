@@ -317,13 +317,15 @@ h3 {
   background-position-x: right;
   background-size: 65% 100%;
   background-repeat: no-repeat;
-  border-top-left-radius: 15%;
+  border-top-left-radius: 96px;
   margin-top: -110px;
 }
-h6{
+
+h6 {
   color: #ffff;
   font-size: 47px;
 }
+
 .contact-container {
   padding: 120px 6%;
   display: flex;
