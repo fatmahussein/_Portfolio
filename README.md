@@ -1,5 +1,4 @@
 <a name="readme-top"></a>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -8,22 +7,27 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-    - [Usage](#usage)
-  - [👥 Authors](#authors)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: Desktop version] <a name="about-project"></a>
+# 📖 [Portfolio: desktop version] <a name="about-project"></a>
 
-**[Portfolio: Desktop version]** is a project created in desktop version using css media query.
+**[Portfolio: desktop version]** is a project created in desktop version using css media query.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -47,9 +51,19 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Displays works section]** 
-- **[Displays About-myself section]** 
-- **[Displays Desktop version]** 
+> Describe between 1-3 key features of the application.
+
+- **[Displays portfolio section]**
+- **[Displays works section]**
+- **[Displays about-myself section]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,7 +77,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
- 1.Code editor example; visual studio code
+1 . Code editor such as Visual Studio Code
+2.  Set up linters
+3.  Knowledege of CSS Flex and grid layout
 
 ### Setup
 
@@ -78,10 +94,40 @@ Example commands:
 ```
 --->
 
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
 ### Usage
 
-To run the project, click on "Go Live" on the bottom of the code editor.
+To run the project, click on live server to view your project on browser
 
+
+### Run tests
+
+To run tests, click on "Go live" at the bottom of the editor.
+
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,11 +135,15 @@ To run the project, click on "Go Live" on the bottom of the code editor.
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
+
 👤 **Author1**
 
 - GitHub: [@fatmahussein](https://github.com/fatmahussein)
-- Twitter: @FatmaHussein200](https://twitter.com/@FatmaHussein200)
+- Twitter: [@FatmaHussein200](https://twitter.com/@FatmaHussein200)
 - LinkedIn: [FatumaHussein](https://www.linkedin.com/in/fatuma-hussein-48149917b)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +151,7 @@ To run the project, click on "Go Live" on the bottom of the code editor.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Hamburger js events]**
+- [ ] **[Hamburger menu js events]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +169,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please follow me to learn more.
+If you like this project, please follow me for more projects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,7 +177,11 @@ If you like this project, please follow me to learn more.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for giving me this chance to learn how to code.
+I would like to thank Microverse for giving me the chance to code better.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
