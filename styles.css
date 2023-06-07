@@ -182,13 +182,14 @@
     font-size: 18px;
     font-weight: 600;
   }
+
   .see-project:hover {
-    background-color:  #6070FF;
+    background-color: #6070ff;
     color: #ffff;
   }
-  
+
   .see-project:active {
-    background-color: #2230D2;
+    background-color: #2230d2;
     color: #ffff;
   }
 
@@ -224,14 +225,15 @@
   }
 
   .resume:hover {
-    background-color:  #6070FF;
+    background-color: #6070ff;
     color: #ffff;
   }
-  
+
   .resume:active {
-    background-color: #2230D2;
+    background-color: #2230d2;
     color: #ffff;
   }
+
   #paragraph {
     font-size: 18px;
   }
