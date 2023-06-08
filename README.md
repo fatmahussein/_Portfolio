@@ -1,5 +1,4 @@
 <a name="readme-top"></a>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -10,8 +9,8 @@
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -21,13 +20,14 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
+# 📖 [Portfolio: desktop version] <a name="about-project"></a>
 
-**[Portfolio: finish mobile version]** is a project created in mobile version.
+**[Portfolio: desktop version]** is a project created in desktop version using css media query.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -51,8 +51,19 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Displays works section]** 
-- **[Displays About-myself section]** 
+> Describe between 1-3 key features of the application.
+
+- **[Displays portfolio section]**
+- **[Displays works section]**
+- **[Displays about-myself section]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://google.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,7 +77,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
- 1.Code editor example; visual studio code
+1 . Code editor such as Visual Studio Code
+2.  Set up linters
+3.  Knowledege of CSS Flex and grid layout
 
 ### Setup
 
@@ -85,10 +98,22 @@ Install this project with:
   npm install
 ```
 
+### Install
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
 ### Usage
 
 To run the project, execute the following command:
-
 
 ```sh
   start live server
@@ -110,17 +135,37 @@ You can deploy this project using:
 N/A
 ```
 
+### Run tests
+
+To run tests, click on "Go live" at the bottom of the editor.
+
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
+
 👤 **Author1**
 
-- GitHub: [@fatmahussein](https://github.com/githubhandle)
-- Twitter: [@FatmaHussein200](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fatuma-hussein-48149917b)
+- GitHub: [@fatmahussein](https://github.com/fatmahussein)
+- Twitter: [@FatmaHussein200](https://twitter.com/@FatmaHussein200)
+- LinkedIn: [FatumaHussein](https://www.linkedin.com/in/fatuma-hussein-48149917b)
+
 
 👤 **Author2**
 
@@ -134,9 +179,7 @@ N/A
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Header section]**
-- [ ] **[Portfolio section]**
-- [ ] **[About-myself section]**
+- [ ] **[Hamburger menu js events]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,7 +197,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please follow me to learn more.
+If you like this project, please follow me for more projects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +205,11 @@ If you like this project, please follow me to learn more.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse for giving me this chance to learn how to code.
+I would like to thank Microverse for giving me the chance to code better.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
