@@ -113,9 +113,11 @@ h1 {
   border-radius: 20px;
   padding: 3%;
 }
-.cards :hover{
+
+.cards :hover {
   scale: 1.02;
 }
+
 .dot {
   width: 12px;
   height: 12px;
@@ -575,6 +577,10 @@ form {
 
   #name {
     border-radius: 2px;
+  }
+
+  form input:focus {
+    transform: translate(10px);
   }
 
   #email {
