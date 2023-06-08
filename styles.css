@@ -410,8 +410,9 @@ form {
   .heading {
     background: url(images/Header.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
     background-color: #fff;
+    background-size: 98% 92%;
+    background-position: center;
   }
 
   .header-container {
