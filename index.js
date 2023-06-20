@@ -94,6 +94,26 @@ const CardData = [
     source: 'https://fatmahussein.github.io/portfolio/',
     company: 'FACEBOOK',
   },
+  {
+    name: 'Multi-Post Stories',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    id: 'mobi',
+    Mobimage: 'images/Snapshoot 4.png',
+    technologies: ['html', 'css', 'javascript'],
+    live: 'https://fatmahussein.github.io/portfolio/',
+    source: 'https://fatmahussein.github.io/portfolio/',
+    company: 'FACEBOOK',
+  },
+  {
+    name: 'Multi-Post Stories',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    id: 'mobi',
+    Mobimage: 'images/Snapshoot 4.png',
+    technologies: ['html', 'css', 'javascript'],
+    live: 'https://fatmahussein.github.io/portfolio/',
+    source: 'https://fatmahussein.github.io/portfolio/',
+    company: 'FACEBOOK',
+  },
 
 ];
 
