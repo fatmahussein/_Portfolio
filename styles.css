@@ -599,4 +599,7 @@
     margin-left: auto;
     margin-right: auto;
   }
+  #mobi{
+    display: none;
+  }
 }
