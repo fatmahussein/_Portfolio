@@ -400,12 +400,13 @@
 
   .navbar.active {
     left: 0;
+    gap: 15px;
   }
 
   .navbar.active .nav-link {
     color: #fff;
     justify-content: flex-start;
-    padding-left: 20px;
+    padding-left: 30px;
     display: flex;
   }
 }
