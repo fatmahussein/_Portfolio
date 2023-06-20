@@ -138,3 +138,31 @@ const postMethods = () => {
 postMethods();
 
 // implementing pop up window
+const postButton = document.querySelector('.see-project');
+
+postButton.forEach((btn) => (btn.addEventListener('click', () => {
+  const postdiv = document.createElement('div');
+  postdiv.classList.add('main-pop');
+  const pop = document.createElement('div');
+  pop.classList.add('card-pop');
+  postdiv.appendChild(pop);
+  pop.innerHTML = `
+          <h2>${CardData.name}</h2>
+        <ul class="list1">
+           <li id="canopy">CANOPY</li>
+           <li class="dot"></li>
+           <li>Back End Dev</li>
+          <li class="dot"></li>
+           <li>2015</li>
+         </ul>
+         <p class="p">${CardData.description}</p>
+         <ul class="list2">
+          <li class="badge">${CardData.technologies[0]}</li>
+           <li class="badge">${CardData.technologies[1]}</li>
+           <li class="badge">${CardData.technologies[2]}</li>
+         </ul>
+          <button type="button" class="see-project">See Project</button>
+       </div>
+   `;
+  postButton.appendChild(postdiv);
+})));
