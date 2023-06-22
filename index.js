@@ -258,3 +258,18 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+const form = document.querySelector('#contact-form');
+const email = document.getElementById('email');
+const error = document.querySelector('small');
+
+form.addEventListener('submit', function (event) {
+	// stop form submission
+	event.preventDefault();
+
+	// validate the form
+	if (email.value.toLowerCase() !== email.value) {
+    event.preventDefault();
+    error.innerText = 'Please use all lowercase for email address';
+  } else {form.submit()}
+});
