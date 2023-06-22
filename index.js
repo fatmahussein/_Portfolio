@@ -1,4 +1,6 @@
+/* eslint-disable array-callback-return */
 // Hamburger Menu js events
+const body = document.querySelector('body');
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.navbar');
 hamburger.addEventListener('click', () => {
@@ -138,31 +140,109 @@ const postMethods = () => {
 postMethods();
 
 // implementing pop up window
-const postButton = document.querySelector('.see-project');
+const see = document.querySelectorAll('.see-project');
+see.forEach((btn) => (btn.addEventListener('click', () => {
+  const main = document.createElement('div');
+  main.className = 'main-pop';
+  const popup = document.createElement('div');
+  popup.className = 'card-pop';
+  popup.innerHTML = `
+  <h5 class="card-title-pop">Tonic<i class="fas fa-times fa-2xs"></i></h5>
+  <ul class="card-list-pop">
+    <li class="card-text">CANOPY</li>
+    <li class="dot"></li>
+    <li class="dev">Back End Dev</li>
+    <li class="dot"></li>
+    <li class="year">2015</li>
+    </ul>
+  <img id="one" class="card-img-pop" src="images/Snapshoot 1.png" alt="Tonic project snapshot">
+  <div class="left-block">
+  <div class="card-body">
+              
+      <p class="text-pop">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+     <ul class="tags-pop">
+     <li id="html"><a href="#" class="tags button1">html</a></li>
+     <li id="css"><a href="#" class="tags button2">css</a></li>
+     <li id="js"><a href="#" class="tags button3">javascript</a></li>
+     </ul> 
+      <hr id="hr-pop">
+      <div class="btns">
+     <div class="project-pop">
+      <a id="proj" href="https://fatmahussein.github.io/portfolio/" class="button" >See live &nbsp;<img src="images/live.png"></a>
+     </div>
+     <div class="project-pop2">
+      <a id="proj" href="https://github.com/fatmahussein/portfolio" class="button" >See Source &nbsp;<img src="images/source.png"></a>
+     </div>
+     </div>
+    </div>
 
-postButton.forEach((btn) => (btn.addEventListener('click', () => {
-  const postdiv = document.createElement('div');
-  postdiv.classList.add('main-pop');
-  const pop = document.createElement('div');
-  pop.classList.add('card-pop');
-  postdiv.appendChild(pop);
-  pop.innerHTML = `
-          <h2>${CardData.name}</h2>
-        <ul class="list1">
-           <li id="canopy">CANOPY</li>
-           <li class="dot"></li>
-           <li>Back End Dev</li>
-          <li class="dot"></li>
-           <li>2015</li>
-         </ul>
-         <p class="p">${CardData.description}</p>
-         <ul class="list2">
-          <li class="badge">${CardData.technologies[0]}</li>
-           <li class="badge">${CardData.technologies[1]}</li>
-           <li class="badge">${CardData.technologies[2]}</li>
-         </ul>
-          <button type="button" class="see-project">See Project</button>
-       </div>
-   `;
-  postButton.appendChild(postdiv);
+  </div>
+  
+  `;
+  main.appendChild(popup);
+  body.appendChild(main);
+
+  const close = document.querySelector('.fa-times');
+  close.addEventListener('click', () => {
+    body.removeChild(main);
+  });
 })));
+
+see.forEach((btn) => (btn.addEventListener('click', () => {
+  const mains = document.createElement('div');
+  mains.className = 'main-pop';
+  const dPopup = document.createElement('div');
+  dPopup.className = 'card-pop';
+  dPopup.innerHTML = `
+  <h5 class="card-title-pop">Tonic<i class="fas fa-times fa-2xs"></i></h5>
+  <ul class="card-list-pop">
+    <li class="card-text">CANOPY</li>
+    <li class="dot"></li>
+    <li class="dev">Back End Dev</li>
+    <li class="dot"></li>
+    <li class="year">2015</li>
+    </ul>
+  
+  <img id="two" class="card-img-pop" src="vectors/snap20.png" alt="Tonic project snapshot">
+
+  <div class="left-block">
+  <div class="card-body">
+    <div class="row ">
+      <div class="col-8">
+      <p class="text-pops">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+    </div>
+    <div class="col-4">
+    <ul class=" row tags-pops">
+    <div class="row" >
+      <div class="col"><li id="html"><a href="#" class="tags button1">html</a></li></div>
+      <div class="col"><li id="css-pop"><a href="#" class="tags button2">css</a></li></div>
+      <div class="col"> <li id="js-pop"><a href="#" class="tags button3">javascript</a></li></div>
+     </div>
+    <div class="row">
+      <div class="col"><li id="git"><a href="#" class=" button3">github</a></li></div>
+        <div class="col"><li id="ruby"><a href="#" class=" button3">ruby</a></li></div>
+          <div class="col"><li id="bs"><a href="#" class=" button3">Bootstraps</a></li></div>
+    </div>
+     </ul> 
+     <hr id="hr-pop">
+     <div class="project-pop">
+      <a id="projp" href="https://fatmahussein.github.io/portfolio/" class="button" >See live &nbsp;<img src="vectors/Icon.png"></a>
+     </div>
+     <div class="project-pop2">
+      <a id="projp" href="https://github.com/fatmahussein/portfolio" class="button" >See Source &nbsp;<img src="vectors/git.png"></a>
+     </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  
+  `;
+  mains.appendChild(dPopup);
+  body.appendChild(mains);
+
+  const close = document.querySelector('.fa-times');
+  close.addEventListener('click', () => {
+    body.removeChild(mains);
+  });
+})
+));
